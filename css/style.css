@@ -1,6 +1,4 @@
-/*******************************/
-/********* General CSS *********/
-/*******************************/
+
 body {
     color: #797979;
     background: #ffffff;
@@ -67,9 +65,9 @@ a:focus {
 }
 
 
-/**********************************/
+
 /********** Top Bar CSS ***********/
-/**********************************/
+
 .top-bar {
     position: relative;
     height: 35px;
@@ -265,9 +263,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /********** Hero CSS ***********/
-/*******************************/
+
 .hero {
     position: relative;
     width: 100%;
@@ -388,9 +386,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /******* Page Header CSS *******/
-/*******************************/
+
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -443,9 +441,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /******* Section Header ********/
-/*******************************/
+
 .section-header {
     position: relative;
     max-width: 600px;
@@ -489,9 +487,8 @@ a:focus {
 }
 
 
-/*******************************/
 /********** About CSS **********/
-/*******************************/
+
 .about {
     position: relative;
     width: 100%;
@@ -545,9 +542,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /********* Service CSS *********/
-/*******************************/
+
 .service {
     position: relative;
     width: 100%;
@@ -648,9 +645,9 @@ a:focus {
 
 
 
-/*******************************/
+
 /********** Class CSS **********/
-/*******************************/
+
 .class {
     position: relative;
     padding: 45px 0 15px 0;
@@ -791,9 +788,9 @@ a:focus {
 
 
 
-/*******************************/
+
 /********* Pricing CSS *********/
-/*******************************/
+
 .discount {
     position: relative;
     width: 100%;
@@ -851,9 +848,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /********* Pricing CSS *********/
-/*******************************/
+
 .price {
     position: relative;
     width: 100%;
@@ -984,115 +981,11 @@ a:focus {
 }
 
 
-/*******************************/
-/*********** Team CSS **********/
-/*******************************/
-.team {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.team .team-item {
-    position: relative;
-    margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, .07);
-}
-
-.team .team-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .team-img img {
-    position: relative;
-    width: 100%;
-}
-
-.team .team-social {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s;
-}
-
-.team .team-social a {
-    position: relative;
-    margin: 0 3px;
-    margin-top: 100px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #F7CAC9;
-    background: #343148;
-    opacity: 0;
-}
-
-.team .team-social a:hover {
-    color: #343148;
-    background: #F7CAC9;
-}
 
 
-.team .team-item:hover .team-social {
-    background: rgba(256, 256, 256, .5);
-}
 
-.team .team-item:hover .team-social a:first-child {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s 0s;
-}
-
-.team .team-item:hover .team-social a:nth-child(2) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .1s;
-}
-
-.team .team-item:hover .team-social a:nth-child(3) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .2s;
-}
-
-.team .team-item:hover .team-social a:nth-child(4) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .3s;
-}
-
-.team .team-text {
-    position: relative;
-    padding: 25px 15px 10px 15px;
-    text-align: center;
-    background: #ffffff;
-}
-
-.team .team-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.team .team-text p {
-    margin: 0;
-}
-
-
-/*******************************/
 /******* Testimonial CSS *******/
-/*******************************/
+
 .testimonial {
     position: relative;
     padding: 45px 0;
@@ -1186,139 +1079,11 @@ a:focus {
 }
 
 
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0;
-}
-
-.blog .blog-carousel {
-    position: relative;
-    width: calc(100% + 30px);
-    left: -15px;
-    right: -15px;
-}
-
-.blog .blog-item {
-    position: relative;
-    margin: 0 15px;
-}
-
-.blog .blog-page .blog-item {
-    margin: 0 0 30px 0;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-}
-
-.blog .blog-img img {
-    width: 100%;
-}
-
-.blog .blog-text {
-    position: relative;
-    padding: 25px 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
-}
-
-.blog .blog-text h2 {
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    padding: 0;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343148;
-    transition: .3s;
-}
-
-.blog .blog-item a.btn i {
-    margin-left: 5px;
-}
-
-.blog .blog-item a.btn:hover {
-    color: #F7CAC9;
-}
-
-.blog .blog-meta {
-    position: relative;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.blog .blog-meta p {
-    margin: 0 10px 0 0;
-    font-size: 13px;
-}
-
-.blog .blog-meta i {
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
-
-.blog .owl-nav {
-    width: 150px;
-    margin: 32px auto 0 auto;
-    display: flex;
-}
-
-.blog .owl-nav .owl-prev,
-.blog .owl-nav .owl-next {
-    margin-left: 15px;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #F7CAC9;
-    background: #343148;
-    font-size: 22px;
-    transition: .3s;
-}
-
-.blog .owl-nav .owl-prev:hover,
-.blog .owl-nav .owl-next:hover {
-    color: #343148;
-    background: #F7CAC9;
-}
-
-.blog .pagination .page-link {
-    color: #343148;
-    border-radius: 0;
-    border-color: #343148;
-}
-
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
-    color: #F7CAC9;
-    background: #343148;
-}
-
-.blog .pagination .disabled .page-link {
-    color: #999999;
-}
 
 
-/*******************************/
+
 /******** Portfolio CSS ********/
-/*******************************/
+
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
@@ -1378,9 +1143,9 @@ a:focus {
 }
 
 
-/*******************************/
+
 /********* Contact CSS *********/
-/*******************************/
+
 .contact {
     position: relative;
     width: 100%;
@@ -1454,9 +1219,9 @@ a:focus {
 
 
 
-/*******************************/
+
 /******* Single Post CSS *******/
-/*******************************/
+
 .single {
     position: relative;
     padding: 45px 0;
@@ -1714,9 +1479,9 @@ a:focus {
 }
 
 
-/**********************************/
+
 /*********** Sidebar CSS **********/
-/**********************************/
+
 .sidebar {
     position: relative;
     width: 100%;
@@ -1886,9 +1651,9 @@ a:focus {
 
 
 
-/*******************************/
+
 /********* Footer CSS **********/
-/*******************************/
+
 .footer {
     position: relative;
     margin-top: 45px;
