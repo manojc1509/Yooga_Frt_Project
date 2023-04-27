@@ -3,7 +3,7 @@ A yoga website is a platform that provides yoga-related information and tools. I
 
 This is my Github link for project demo : https://manojc1509.github.io/Yooga_Frt_Project/
 
-This is my Azure link for project demo : https://wonderful-smoke-0e97b7410.3.azurestaticapps.net
+
 
 Snapshots
 ![image](https://user-images.githubusercontent.com/104071623/234781748-a46f420a-a735-41c8-a854-e16d4a47aaeb.png)
